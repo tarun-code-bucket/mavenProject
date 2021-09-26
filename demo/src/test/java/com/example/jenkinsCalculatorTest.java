@@ -17,13 +17,13 @@ public class jenkinsCalculatorTest
     public void addTest()
     {
         jenkinsCalulator addTest = new jenkinsCalulator();
-        assertEquals(10, addTest.addNum(5, 5));
+        assertEquals(11, addTest.addNum(5, 5));
     }
 
     @Test
     public void addSub()
     {
         jenkinsCalulator subTest = new jenkinsCalulator();
-        assertEquals(0, subTest.subNum(5, 5));
+        assertEquals(1, subTest.subNum(5, 5));
     }
 }
